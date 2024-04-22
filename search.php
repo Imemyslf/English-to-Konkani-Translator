@@ -1,6 +1,6 @@
 <?php
 
-$connect = mysqli_connect("localhost","root","","item");
+$connect = mysqli_connect("localhost","root","","konk");
 
 if (isset($_POST["query"]))
 {

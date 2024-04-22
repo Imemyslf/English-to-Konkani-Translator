@@ -1,5 +1,5 @@
 <?php
-        $connect = mysqli_connect("localhost", "root", "", "item");
+        $connect = mysqli_connect("localhost", "root", "", "konk");
 
         if (!$connect) {
             die("Couldn't connect to database");
