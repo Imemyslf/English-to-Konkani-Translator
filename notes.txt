@@ -1,0 +1,8 @@
+Backend Details : 
+
+db_name    : nlp
+table_name : kv_pairs
+ -> id int(11)
+ -> eng_word varchar(100)
+ -> kon_word varchar(100)
+

@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav-description {
+    height: auto;
+    padding: 2rem;
+    background: #eeeeee;
+}
+.nav-description p {
+    width: 80%;
+    text-align: justify;
+}
+.search-container {
+    margin: 5rem 1rem 0;
+}
+.search-container form {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 2vmin;
+}
+.search-container form button {
+    height: 4rem;
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 15px;
+    border: 1px solid grey;
+}
+.search-container form input {
+    width: 30%;
+    height: 4rem;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid grey;
+    font-size: 25px;
+    padding: 15px;
+}
+.suggestion-list {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    margin: 0 1rem;
+}
+.suggestion-list .item {
+    padding: 5px 20px;
+    width: 30%;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    border: 0.5px solid #dcdcdc;
+}
+.result-container .result {
+    color: #6d7b89;
+    font-size: 30px;
+}
+body {
+    background: #d1d1d1;
+}
+.navbar {
+    min-height: 80px; /* Adjust height as needed */
+}
+.search-container {
+    margin-top: 50px;
+}
+.result-container {
+    margin-top: 20px;
+    margin-left: 5rem;
+}
+.output-box {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 20px;
+    min-height: 100px;
+}
+header .container a {
+    font-size: 35px;
+}
+.fa-search {
+    color: #343a40;
+}
+.submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    background-color: #343a40;
+    padding: 20px 0;
+}
